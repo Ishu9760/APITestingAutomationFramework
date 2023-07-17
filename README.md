@@ -22,6 +22,10 @@ Run
 
 mvn clean test
 
-**Integration Test (Create Booking and Create Token, Update and Delete Booking)**
+**Integration Test (Create Booking and Token, Update and Delete Booking)**
+1. Create Token
+2. Create Booking
+3. Update Booking
+4. Delete Booking
 
 mvn clean test -DsuiteXmlFile=testng-integration.xml
